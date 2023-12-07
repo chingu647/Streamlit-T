@@ -2,13 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-from matplotlib.patches import Patch
-import seaborn as sns
 import re
 import time
 import os
+
 from datetime import datetime
 from collections import Counter
 
