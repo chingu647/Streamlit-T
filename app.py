@@ -13,7 +13,7 @@ from PIL import Image
 st.markdown("##### 서울시 아파트 가격 추세 분석 및 회귀모델 분석") 
 st.markdown("""---""") 
 
-tab_titles = ['Project 개요', '느낀점', 'Project 절차', 'Project 3가지', '가설 1', '가설 2', '가설 3', 'Data source']
+tab_titles = ['Project 개요', '느낀점', 'Project 절차', 'Project 3가지', '가설1 분석', '가설2 분석', '가설3 분석', 'Data source']
 tabs = st.tabs(tab_titles)
  
 # 각 탭에 콘텐츠 추가
@@ -55,7 +55,7 @@ with tabs[2]:
 
 with tabs[3]:
     st.markdown(r"""
-	다음의 3가지 가설을 확인하고자 합니다.
+	다음의 3가지 가설을 확인하고자 하였습니다.
 	- [가설 1] : **직전 5개년간 `서울시 구별 평균 개별공시지가 순위`에 차이가 있다.**
 		* 개별공시지가 : 지자체가 세금결정을 위해 매년 발표하는 1㎡당 토지단가(원/㎡)입니다.
 		* 검증 방법 : 데이터 시각화를 통한 확인
@@ -70,15 +70,12 @@ with tabs[3]:
     """)
 
 with tabs[4]:
-    st.header('가설 1 분석')
     st.write('여기서 데이터를 시각화합니다...')
 
 with tabs[5]:
-    st.header('가설 2 분석')
     st.write('여기서 데이터를 시각화합니다...')
 
 with tabs[6]:
-    st.header('가설 2 분석')
     st.write('여기서 데이터를 시각화합니다...')
 
 with tabs[7]:
