@@ -10,7 +10,7 @@ from collections import Counter
 
 from PIL import Image 
 
-style1 = "<style>h1 {text-align: center;}</style>"
+style1 = "<style>{text-align: center;}</style>"
 st.markdown(style1, unsafe_allow_html=True)
 
 col1,col2= st.columns([100,1]) 
