@@ -3,7 +3,7 @@ def run_tab():
 
 
     st.markdown("###### 회귀모델별 비교") 
-    img3 = Image.open('graph_03.png')
+    img3 = Image.open('./imgs/graph_03.png')
     st.image(img3)
     st.markdown(r"""
 	1. 회귀모델 비교 결과 XGBRegressor 모델 성능이 가장 높게 나타났습니다.
@@ -16,7 +16,7 @@ def run_tab():
 
 
     st.markdown("###### 잔차분석 - DecisionTreeRegressor 모델") 
-    img4 = Image.open('graph_04.png')
+    img4 = Image.open('./imgs/graph_04.png')
     st.image(img4)
     st.markdown(r"""
 	- residuals(잔차)는 zero
@@ -25,7 +25,7 @@ def run_tab():
     st.markdown("""---""") 
 
     st.markdown("###### 학습곡선 - DecisionTreeRegressor 모델") 
-    img5 = Image.open('graph_05.png')
+    img5 = Image.open('./imgs/graph_05.png')
     st.image(img5)
     st.markdown(r"""
 	- cross validation score가 드디어 보입니다. (데이터 복사전에는 보이지 않았습니다.)
@@ -36,7 +36,7 @@ def run_tab():
 
 
     st.markdown("###### feature importance plot") 
-    img6 = Image.open('graph_06.png')
+    img6 = Image.open('./imgs/graph_06.png')
     st.image(img6)
     st.markdown(r"""
 	- 2023년도 서울시 아파트 실거래가는
