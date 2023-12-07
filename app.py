@@ -112,7 +112,6 @@ with tabs[5]:
     st.markdown("###### 회귀모델별 비교") 
     img3 = Image.open('graph_03.png')
     st.image(img3)
-
     st.markdown(r"""
 	1. 회귀모델 비교 결과 XGBRegressor 모델 성능이 가장 높게 나타났습니다.
 		* Mean Absolute Percentage Error 값이 약 0.% 수준  (데이터 복사 이전 : 5.6% 수준)
@@ -122,20 +121,38 @@ with tabs[5]:
     """)
     st.markdown("""---""") 
 
-    st.markdown("###### 회귀모델별 비교") 
-    st.markdown(r"""
-	1.  **회귀모델 분석결과**  `서울시 구별 평균 아파트 실거래가'는 서울시 구별 **인프라 수준**과 관계가 크게 없었습니다.
-		* 서울시 구별 인프라 : 병원수, 학교수, 도서관 수, 지하철역 수, 버스정류장 수
-		* 검증 방법 : 회귀모델을 통한 데이터 분석
 
-	2. 서울시 구별 **2023년도 평균 아파트 실거래가**는 서울시 **구별 인프라 수준**보다는 < **과거 시세** > 와 높은 관계가 있었습니다.
-	3. 서울시 아파트 실거래가 예측을 위해,  과거 시세변동 데이터 시각화를 통한 추세분석 및 지하철역 개수 및 외국인 학교 수를 참고할 필요가 있습니다.
-	4. 본 프로젝트는 **데이터 부족(25개 row) 한계점**이 있습니다.
-		* 동 단위의 자료로 row를 확대하여 추가 판단이 필요하다고 생각됩니다.
+    st.markdown("###### 잔차분석 - DecisionTreeRegressor 모델") 
+    img4 = Image.open('graph_04.png')
+    st.image(img4)
+    st.markdown(r"""
+	- residuals(잔차)는 zero
+	- predicted value(예측값)은 0.76 ~ 2.6 사이인데....  그 의미는?
+    """)
+    st.markdown("""---""") 
+
+    st.markdown("###### 학습곡선 - DecisionTreeRegressor 모델") 
+    img5 = Image.open('graph_05.png')
+    st.image(img5)
+    st.markdown(r"""
+	- cross validation score가 드디어 보입니다. (데이터 복사전에는 보이지 않았습니다.)
+	- training instances 120 dlgn score 1.0이 됩니다.
+		* 120번 훈련에서 1.0점을 달성하고 / 총 300번 이상 훈련한 것으로 해석됩니다.
     """)
     st.markdown("""---""") 
 
 
+    st.markdown("###### feature importance plot") 
+    img6 = Image.open('graph_06.png')
+    st.image(img6)
+    st.markdown(r"""
+	- 2023년도 서울시 아파트 실거래가는
+		* 과거 시세(2018년도) 아파트 실거래가의 경우 가장 높게 나타났습니다.    /  (데이터 복사전에는 2019년도)
+		* 과거 시세(2022년도) 실거래가의 경우 높게 나타났습니다. / (데이터 복사전에는 (2020년도, 2021년도)
+	- 데이터 복사 전과 데이터 복사 후의 feature importance 결과가 다르게 나왔습니다.
+		* 이유는 ?
+    """)
+    st.markdown("""---""") 
 
 with tabs[6]:
     st.write('여기서 데이터를 시각화합니다...') 
