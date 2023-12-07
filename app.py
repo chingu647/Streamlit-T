@@ -1,4 +1,16 @@
 import streamlit as st 
+import pandas as pd
+import numpy as np
+import matplotlib as mpl 
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from matplotlib.patches as Patch
+import seaborn as sns
+import re
+import time
+import os
+from datetime import datetime
+from collections import Counter
 
 def main(): 
     st.title("서울시 아파트 가격 추세분석 및 예측")
