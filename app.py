@@ -9,7 +9,12 @@ from datetime import datetime
 from collections import Counter
 
 from PIL import Image 
-col1,col2= st.columns([100,1])
+
+style = "<style>h2 {text-align: center;}</style>"
+st.markdown(style, unsafe_allow_html=True)
+
+
+col1,col2= st.columns([100,1]) 
 with col1:
     st.title("2023년 인공지능 마스터 과정") 
     st.header("서울시 아파트 가격 추세분석 및 회귀분석") 
