@@ -18,6 +18,11 @@ import tab5
 import tab6 
 import tab7 
 
+st.set_page_config(layout="wide")
+
+
+
+
 st.markdown("#### 서울시 아파트 가격 추세 분석 및 회귀모델 분석") 
 st.markdown("""---""") 
 
