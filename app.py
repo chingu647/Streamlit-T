@@ -13,7 +13,7 @@ from PIL import Image
 st.markdown("##### 서울시 아파트 가격 추세 분석 및 회귀모델 분석") 
 st.markdown("""---""") 
 
-tab_titles = ['Project 개요', '느낀점 부터', 'Project 3가지', '가설1 분석', '가설2 분석', '가설3 분석', 'Project 절차', 'Data source']
+tab_titles = ['Project 개요', '느낀점 부터', 'Project 3가지', '가설1 분석', '가설2 분석', '가설3 분석', 기 타', 'Data source']
 tabs = st.tabs(tab_titles)
  
 # 각 탭에 콘텐츠 추가
