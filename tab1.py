@@ -1,3 +1,5 @@
+import aaa 
+
 def run_tab():
     st.markdown(r"""
 	**1. (개인적으로) 프로젝트 수행시 잘못한 점**
