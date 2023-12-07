@@ -10,7 +10,7 @@ from collections import Counter
 
 from PIL import Image 
 
-st.markdown("##### 서울시 아파트 가격 추세 분석 및 회귀모델 분석") 
+st.markdown("#### 서울시 아파트 가격 추세 분석 및 회귀모델 분석") 
 st.markdown("""---""") 
 
 tab_titles = ['Project 개요', '느낀점 부터', 'Project 가설 3가지', '가설1 분석', '가설2 분석', '가설3 분석', '결 론', 'Data source']
