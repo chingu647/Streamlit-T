@@ -1,4 +1,11 @@
 import streamlit as st 
+import pandas as pd
+import numpy as np
+import time
+import os
+from datetime import datetime
+from collections import Counter
+from PIL import Image 
 
 def run_tab():
     st.markdown("###### 가설1 : 직전 5개년간 `서울시 구별 평균 개별공시지가 순위`에 차이가 있다.") 

@@ -1,4 +1,11 @@
 import streamlit as st 
+import pandas as pd
+import numpy as np
+import time
+import os
+from datetime import datetime
+from collections import Counter
+from PIL import Image 
 
 def run_tab():
     st.markdown("####  3가지 가설에 대해 아래의 결과를 확인하였습니다.")

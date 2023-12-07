@@ -1,4 +1,11 @@
 import streamlit as st 
+import pandas as pd
+import numpy as np
+import time
+import os
+from datetime import datetime
+from collections import Counter
+from PIL import Image 
 
 def run_tab():
     st.markdown("###### 가설3 : `서울시 구별 평균 아파트 실거래가'는 서울시 구별 인프라 수준과 관계가 있다 ?") 
