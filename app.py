@@ -110,12 +110,12 @@ with tabs[5]:
     img3 = Image.open('graph_03.png')
     st.image(img3)
     st.markdown(r"""
-		1. 회귀모델 비교 결과 XGBRegressor 모델 성능이 가장 높게 나타났습니다.
-			* Mean Absolute Percentage Error 값이 약 5.6% 수준
-		2. XGBRegressor 모델의 mape가 5.6%이므로,
+	1. 회귀모델 비교 결과 XGBRegressor 모델 성능이 가장 높게 나타났습니다.
+		* Mean Absolute Percentage Error 값이 약 5.6% 수준
+	2. XGBRegressor 모델의 mape가 5.6%이므로,
 		* 2023년도 서울시 아파트 실제 거래가격과 예측가격 비율이 5.6% 차이가 난다고 해석할 수 있음
     """)
-
+    st.markdown("""---""") 
     st.markdown(r"""
 	1.  **회귀모델 분석결과**  `서울시 구별 평균 아파트 실거래가'는 서울시 구별 **인프라 수준**과 관계가 크게 없었습니다.
 		* 서울시 구별 인프라 : 병원수, 학교수, 도서관 수, 지하철역 수, 버스정류장 수
@@ -126,6 +126,9 @@ with tabs[5]:
 	4. 본 프로젝트는 **데이터 부족(25개 row) 한계점**이 있습니다.
 		* 동 단위의 자료로 row를 확대하여 추가 판단이 필요하다고 생각됩니다.
     """)
+    st.markdown("""---""") 
+
+
 
 with tabs[6]:
     st.write('여기서 데이터를 시각화합니다...') 
