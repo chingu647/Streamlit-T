@@ -9,7 +9,7 @@ from datetime import datetime
 from collections import Counter
 
 from PIL import Image 
-col1 = st.columns([1])
+col1,_ = st.columns([1,0])
 with col1:
     st.title("col1") 
 
