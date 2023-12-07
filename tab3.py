@@ -3,7 +3,7 @@ import streamlit as st
 def run_tab():
     st.markdown("###### 가설1 : 직전 5개년간 `서울시 구별 평균 개별공시지가 순위`에 차이가 있다.") 
 
-    img = Image.open('./imgs/graph_01.png')
+    img = Image.open('imgs/graph_01.png')
     st.image(img)
 
     st.markdown("###### 결론 : 직전 5개년간 `서울시 구별 평균 개별공시지가 순위`에 차이는 없었습니다.") 
