@@ -21,25 +21,3 @@ with col2:
 st.sidebar.title("this is sidebar")
 chk3 = st.sidebar.checkbox("체크박스 문구") 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-if __name__ == '__main__': 
-    main()
-
