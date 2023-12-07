@@ -11,7 +11,7 @@ from collections import Counter
 from PIL import Image 
 col1,col2= st.columns([100,1])
 with col1:
-    st.title("col1") 
+    st.title("col1-------------------------------------------------------------------------------------------------------------------------------") 
 
 col3,col4 = st.columns([2,3])
 with col3:
