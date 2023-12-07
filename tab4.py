@@ -10,7 +10,7 @@ from PIL import Image
 def run_tab():
     st.markdown("###### 가설2 : 직전 6개년간 `서울시 구별 평균 아파트 실거래가(매매가격)의 순위`에 차이가 있다.") 
 
-    img2 = Image.open('./imgs/graph_02.png')
+    img2 = Image.open('imgs/graph_02.png')
     st.image(img2)
 
     st.markdown("###### 결론 : 직전 6개년간 `서울시 구별 평균 아파트 실거래가의 순위`는 일부 차이가 있었습니다.") 
