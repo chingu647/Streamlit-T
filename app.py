@@ -109,13 +109,17 @@ with tabs[5]:
     st.markdown("###### 가설3 : `서울시 구별 평균 아파트 실거래가'는 서울시 구별 인프라 수준과 관계가 있다 ?") 
     img3 = Image.open('graph_03.png')
     st.image(img3)
+    st.markdown("""---""") 
+
     st.markdown(r"""
 	1. 회귀모델 비교 결과 XGBRegressor 모델 성능이 가장 높게 나타났습니다.
-		* Mean Absolute Percentage Error 값이 약 5.6% 수준
-	2. XGBRegressor 모델의 mape가 5.6%이므로,
-		* 2023년도 서울시 아파트 실제 거래가격과 예측가격 비율이 5.6% 차이가 난다고 해석할 수 있음
+		* Mean Absolute Percentage Error 값이 약 0.% 수준  (데이터 복사 이전 : 5.6% 수준)
+	2. XGBRegressor 모델의 mape가 매우 낮아,
+		* 2023년도 서울시 아파트 실제 거래가격과 
+		* 예측가격 비율이 거의 일치한다고 해석됨 (데이터 복사 전 : 5.6% 차이)
     """)
     st.markdown("""---""") 
+
     st.markdown(r"""
 	1.  **회귀모델 분석결과**  `서울시 구별 평균 아파트 실거래가'는 서울시 구별 **인프라 수준**과 관계가 크게 없었습니다.
 		* 서울시 구별 인프라 : 병원수, 학교수, 도서관 수, 지하철역 수, 버스정류장 수
