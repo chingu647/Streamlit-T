@@ -130,7 +130,8 @@ with tabs[6]:
     st.write('여기서 데이터를 시각화합니다...')
 
 with tabs[7]:
-    st.markdown(r"""
+    st.markdown(r""" 
+
 	자료 1. 매년 토지소재지 자치구청장이 개별공시지가를 공개합니다. 
 		* (링크: http://data.seoul.go.kr/dataList/OA-1180/F/1/datasetView.do)
 		* 개별공시지가 : 결정공시하는 1㎡당 토지단가(원/㎡)입니다.
