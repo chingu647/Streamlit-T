@@ -13,7 +13,7 @@ from PIL import Image
 st.markdown("##### 서울시 아파트 가격 추세 분석 및 회귀모델 분석") 
 st.markdown("""---""") 
 
-tab_titles = ['Project 개요', '느낀점 부터', 'Project 3가지', '가설1 분석', '가설2 분석', '가설3 분석', '기 타', 'Data source','etc']
+tab_titles = ['Project 개요', '느낀점 부터', 'Project 3가지', '가설1 분석', '가설2 분석', '가설3 분석', '기 타', 'Data source', 'etc']
 tabs = st.tabs(tab_titles)
  
 # 각 탭에 콘텐츠 추가
@@ -130,7 +130,29 @@ with tabs[6]:
     st.write('여기서 데이터를 시각화합니다...')
 
 with tabs[7]:
+    st.markdown(r"""
+	1. 매년 토지소재지 자치구청장이 개별공시지가를 공개합니다. 
+		* (링크: http://data.seoul.go.kr/dataList/OA-1180/F/1/datasetView.do)
+		* 개별공시지가 : 결정공시하는 1㎡당 토지단가(원/㎡)입니다.
 
+	2. 국토교통부 제공 아파트 실거래가 자료 (링크: http://rtdown.molit.go.kr/)
+		* 부동산 거래신고등 법률에 따라 등록된 계약일 기준 실거래가격 정보
+
+	3. 서울시 소재 병원은 881개가 있습니다. 
+		* (링크: https://data.seoul.go.kr/dataList/OA-16479/S/1/datasetView.do)
+
+	4. 서울시 소재 학교는 총 3,932개가 있습니다. 
+		* (링크: https://data.seoul.go.kr/dataList/199/S/2/datasetView.do)
+
+	5. 서울시 소재 도서관은 총 537개 가 있습니다. 
+		* (링크: https://data.seoul.go.kr/dataList/387/S/2/datasetView.do)
+
+	6. 서울시 소재 지하철역은 총 288개 가 있습니다. 
+		* (링크: https://www.data.go.kr/data/15081868/fileData.do)
+
+	7. 서울시 소재 버스정류장은 총 430개 가 있습니다. 
+		* (링크: https://data.seoul.go.kr/dataList/OA-21225/S/1/datasetView.do)
+    """)
 
 with tabs[8]:
     img4 = Image.open('graph_04.png')
