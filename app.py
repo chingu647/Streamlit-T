@@ -12,9 +12,6 @@ from PIL import Image
 
 style1 = "<style>h1 {text-align: center;}</style>"
 st.markdown(style1, unsafe_allow_html=True)
-style2 = "<style>h2 {text-align: center;}</style>"
-st.markdown(style2, unsafe_allow_html=True)
-
 
 col1,col2= st.columns([100,1]) 
 with col1:
