@@ -10,8 +10,9 @@ from collections import Counter
 
 from PIL import Image 
 
-st.header("서울시 아파트 가격 추세 분석 및 회귀분석")
+st.subheader("서울시 아파트 가격 추세 분석 및 회귀분석")
 st.markdown("""---""") 
+st.write('장인구')
 
 tab_titles = ['Project 개요', 'Project 후기', 'Data source', 'Project 절차', 'Project 3가지', '가설 1', '가설 2', '가설 3']
 tabs = st.tabs(tab_titles)
@@ -31,11 +32,11 @@ with tabs[1]:
 	 - 데이터 전처리시 결측값 체크 및 제거 안함
 	  - 문자열 split() 이 되지 않았습니다.
 
-	**2. 프로젝트 미흡한 점**
+	**2. 프로젝트 해보니 미흡한 점**
 	 - 실제 해보려고 하니, 함수가 잘 기억이 나지 않았습니다.
 	 - 어려운 주제보다는 탐색적 데이터 분석 중심으로 프로젝트를 진행 하였습니다.
 
-	**3. 본 프로젝트는 **데이터 부족(25개 row) 한계점**이 있습니다.**
+	**3. 본 프로젝트는 **데이터 부족(25개 row) 한계점**이 있었습니다.**
 	 - row자료가 너무 적었음 : 서울시 25개 군별로 분석하였는데, 부족하다고 생각됩니다.
 	 - 동 단위의 자료로 row를 확대하여 추가 판단이 필요하다고 생각됩니다.
 	 - 인프라의 내용에 `외국인 거주자 수`, `기업체 수` 등 도 포함 시킬 필요가 있다고 생각됩니다.
@@ -85,13 +86,13 @@ with tabs[4]:
     """)
 
 with tabs[5]:
-    st.header('가설 1')
+    st.header('가설 1 분석')
     st.write('여기서 데이터를 시각화합니다...')
 
 with tabs[6]:
-    st.header('가설 2')
+    st.header('가설 2 분석')
     st.write('여기서 데이터를 시각화합니다...')
 
 with tabs[7]:
-    st.header('가설 3')
+    st.header('가설 3 분석')
     st.write('여기서 데이터를 시각화합니다...')
