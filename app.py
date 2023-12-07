@@ -12,7 +12,6 @@ from PIL import Image
 
 st.subheader("서울시 아파트 가격 추세 분석 및 회귀분석")
 st.markdown("""---""") 
-st.write('장인구')
 
 tab_titles = ['Project 개요', 'Project 후기', 'Data source', 'Project 절차', 'Project 3가지', '가설 1', '가설 2', '가설 3']
 tabs = st.tabs(tab_titles)
@@ -28,9 +27,9 @@ with tabs[1]:
     st.markdown(r"""
 	**1. 프로젝트 수행시 잘못한 점**
 	 - 가설 미수립하고 주어진 데이터 분석을 진행함
-	  - 서울시 개별공시지가 는 의미없는 자료 였습니다.
+	  -> 서울시 개별공시지가 는 의미없는 자료 였습니다.
 	 - 데이터 전처리시 결측값 체크 및 제거 안함
-	  - 문자열 split() 이 되지 않았습니다.
+	  -> 문자열 split() 이 되지 않았습니다.
 
 	**2. 프로젝트 해보니 미흡한 점**
 	 - 실제 해보려고 하니, 함수가 잘 기억이 나지 않았습니다.
@@ -38,13 +37,13 @@ with tabs[1]:
 
 	**3. 본 프로젝트는 **데이터 부족(25개 row) 한계점**이 있었습니다.**
 	 - row자료가 너무 적었음 : 서울시 25개 군별로 분석하였는데, 부족하다고 생각됩니다.
-	 - 동 단위의 자료로 row를 확대하여 추가 판단이 필요하다고 생각됩니다.
+	  -> 동 단위의 자료로 row를 확대하여 추가 판단이 필요하다고 생각됩니다.
 	 - 인프라의 내용에 `외국인 거주자 수`, `기업체 수` 등 도 포함 시킬 필요가 있다고 생각됩니다.
 
 	**4. pycaret에서 궁금한 점**
 	 - plot_model(estimator = tuned_model, plot = 'learning')에서
-	  - training_score 하락이 의미하는 이유는 무엇인지 ? row 갯수 부족 때문 인가요 ?
-	  - cross_validation_score가 보이지 않았습니다.  row 갯수 부족 때문 인가요 ?  
+	  -> training_score 하락이 의미하는 이유는 무엇인지 ? row 갯수 부족 때문 인가요 ?
+	  -> cross_validation_score가 보이지 않았습니다.  row 갯수 부족 때문 인가요 ?  
     """)
 with tabs[2]:
     st.markdown(r"""
