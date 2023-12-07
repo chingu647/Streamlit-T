@@ -9,13 +9,10 @@ from PIL import Image
 
 def run_tab():
     st.markdown("####  3가지 가설에 대해 아래의 결과를 확인하였습니다.")
-    st.markdown("""---""")
-
     st.markdown("######  1. 직전 5개년간 `서울시 구별 평균 개별공시지가 순위`는 차이는 없었습니다.")
     st.markdown("""---""")
 
     st.markdown("######  2. 직전 6개년간 `서울시 구별 평균 아파트 실거래가의 순위`는 일부 차이가 있었습니다.")
-    st.markdown("""---""")
 
     st.markdown("######  3. `서울시 구별 평균 아파트 실거래가'`는 서울시 구별 `인프라 수준`과 관계가 크게 없었습니다.")
     st.markdown(r"""
