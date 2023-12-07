@@ -129,6 +129,7 @@ with tabs[5]:
 
 with tabs[6]:
     st.write('여기서 데이터를 시각화합니다...') 
+    st.write('여기서 데이터를 시각화합니다...') 
     aaa
     aaa
 
