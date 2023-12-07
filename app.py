@@ -9,14 +9,14 @@ from collections import Counter
 
 from PIL import Image 
 
-import tab0.py
-import tab1.py 
-import tab2.py 
-import tab3.py 
-import tab4.py 
-import tab5.py 
-import tab6.py 
-import tab7.py 
+import tab0 
+import tab1 
+import tab2 
+import tab3 
+import tab4 
+import tab5 
+import tab6 
+import tab7 
 
 st.markdown("#### 서울시 아파트 가격 추세 분석 및 회귀모델 분석") 
 st.markdown("""---""") 
