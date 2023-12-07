@@ -8,6 +8,8 @@ import tab5
 import tab6 
 import tab7 
 
+aaa.run_libs()
+
 st.markdown("#### 서울시 아파트 가격 추세 분석 및 회귀모델 분석") 
 st.markdown("""---""") 
 

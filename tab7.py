@@ -1,5 +1,6 @@
-import aaa
- 
+import aaa 
+aaa.run_libs() 
+
 def run_tab():
     st.markdown(r"""
 	- 자료 1. 매년 토지소재지 자치구청장이 개별공시지가

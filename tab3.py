@@ -1,4 +1,5 @@
 import aaa 
+aaa.run_libs() 
 
 def run_tab():
     st.markdown("###### 가설1 : 직전 5개년간 `서울시 구별 평균 개별공시지가 순위`에 차이가 있다.") 

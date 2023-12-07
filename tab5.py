@@ -1,5 +1,6 @@
 import aaa
- 
+aaa.run_libs() 
+
 def run_tab():
     st.markdown("###### 가설3 : `서울시 구별 평균 아파트 실거래가'는 서울시 구별 인프라 수준과 관계가 있다 ?") 
 
