@@ -73,7 +73,10 @@ with tabs[2]:
     """)
 
 with tabs[3]:
-    st.write('여기서 데이터를 시각화합니다...')
+    st.markdown("###### 가설 : 직전 5개년간 `서울시 구별 평균 개별공시지가 순위`에 차이가 있다.") 
+    img = Image.open('graph_01.png')
+    st.image(img)
+    st.markdown("###### 결론 : 직전 5개년간 `서울시 구별 평균 개별공시지가 순위`에 차이는 없었습니다.") 
 
 with tabs[4]:
     st.write('여기서 데이터를 시각화합니다...')
