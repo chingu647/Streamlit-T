@@ -9,14 +9,17 @@ from datetime import datetime
 from collections import Counter
 
 from PIL import Image 
-
-col1,col2 = st.columns([2,3])
+col1 = st.columns([1])
 with col1:
-    st.title("col1")
-with col2:
-    st.title("col2")
-    chk1 = st.checkbox("this is checkbox1") 
-    chk2 = st.checkbox("this is checkbox2")       
+    st.title("col1") 
+
+col3,col4 = st.columns([2,3])
+with col3:
+    st.title("col3")
+with col4:
+    st.title("col4")
+    chk3 = st.checkbox("this is checkbox3") 
+    chk4 = st.checkbox("this is checkbox4")       
 
 st.sidebar.title("this is sidebar")
 chk3 = st.sidebar.checkbox("체크박스 문구") 
