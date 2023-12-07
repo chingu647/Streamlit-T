@@ -30,10 +30,10 @@ with tabs[1]:
 with tabs[2]:
     st.markdown(r"""
 	자료 1. 매년 토지소재지 자치구청장이 개별공시지가를 공개합니다. (링크: http://data.seoul.go.kr/dataList/OA-1180/F/1/datasetView.do)
-		* 개별공시지가 : 결정공시하는 1㎡당 토지단가(원/㎡)입니다.
+	- 개별공시지가 : 결정공시하는 1㎡당 토지단가(원/㎡)입니다.
 
 	자료 2. 국토교통부 제공 아파트 실거래가 자료 (링크: http://rtdown.molit.go.kr/)
-		* 부동산 거래신고등 법률에 따라 등록된 계약일 기준 실거래가격 정보
+	- 부동산 거래신고등 법률에 따라 등록된 계약일 기준 실거래가격 정보
 
 	자료 3. 서울시 소재 병원은 881개가 있습니다. (링크: https://data.seoul.go.kr/dataList/OA-16479/S/1/datasetView.do)
 
