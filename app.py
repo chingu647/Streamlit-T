@@ -107,9 +107,11 @@ with tabs[4]:
 
 with tabs[5]:
     st.markdown("###### 가설3 : `서울시 구별 평균 아파트 실거래가'는 서울시 구별 인프라 수준과 관계가 있다 ?") 
+
+
+    st.markdown("###### 회귀모델별 비교") 
     img3 = Image.open('graph_03.png')
     st.image(img3)
-    st.markdown("""---""") 
 
     st.markdown(r"""
 	1. 회귀모델 비교 결과 XGBRegressor 모델 성능이 가장 높게 나타났습니다.
@@ -120,6 +122,7 @@ with tabs[5]:
     """)
     st.markdown("""---""") 
 
+    st.markdown("###### 회귀모델별 비교") 
     st.markdown(r"""
 	1.  **회귀모델 분석결과**  `서울시 구별 평균 아파트 실거래가'는 서울시 구별 **인프라 수준**과 관계가 크게 없었습니다.
 		* 서울시 구별 인프라 : 병원수, 학교수, 도서관 수, 지하철역 수, 버스정류장 수
