@@ -16,11 +16,11 @@ def main():
         st.title("col1")
     with col2:
         st.title("col2")
-        st.checkbox("this is checkbox1") 
-        st.checkbox("this is checkbox2")       
+        st.checkbox("this is checkbox1", key="chk1") 
+        st.checkbox("this is checkbox2", key="chk2)       
 
     st.sidebar.title("this is sidebar")
-    st.sidebar.checkbox("체크박스 문구")
+    st.sidebar.checkbox("체크박스 문구", key="chk3")
 
 
 main()
