@@ -186,20 +186,3 @@ with tabs[7]:
     """)
     st.markdown("""---""") 
 
-
-
-
-
-
-
-
-    st.markdown(r"""
-    aaa
-    aaa
-
-    aaa
-    aaa
-    aaa
-    aa
-
-    """)
