@@ -1,5 +1,4 @@
-import aaa 
-aaa.run_libs() 
+import streamlit as st 
 
 def run_tab(): 
     st.markdown("###### Project 개요") 

@@ -1,4 +1,14 @@
-import aaa
+import streamlit as st 
+
+import pandas as pd
+import numpy as np
+import time
+import os
+from datetime import datetime
+from collections import Counter
+
+from PIL import Image 
+
 import tab0 
 import tab1 
 import tab2 
@@ -7,8 +17,6 @@ import tab4
 import tab5 
 import tab6 
 import tab7 
-
-aaa.run_libs()
 
 st.markdown("#### 서울시 아파트 가격 추세 분석 및 회귀모델 분석") 
 st.markdown("""---""") 

@@ -1,5 +1,4 @@
-import aaa
-aaa.run_libs() 
+import streamlit as st 
 
 def run_tab():
     st.markdown("####  3가지 가설에 대해 아래의 결과를 확인하였습니다.")

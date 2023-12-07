@@ -1,5 +1,4 @@
-import aaa
-aaa.run_libs() 
+import streamlit as st 
 
 def run_tab():
     st.markdown("###### 가설2 : 직전 6개년간 `서울시 구별 평균 아파트 실거래가(매매가격)의 순위`에 차이가 있다.") 
