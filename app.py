@@ -13,7 +13,7 @@ from PIL import Image
 st.subheader("서울시 아파트 가격 추세 분석 및 회귀분석")
 st.markdown("""---""") 
 
-tab_titles = ['Project 개요', 'Project 느낀점', 'Project 절차', 'Project 3가지', '가설 1', '가설 2', '가설 3', 'Data source']
+tab_titles = ['Project 개요', '느낀점', 'Project 절차', 'Project 3가지', '가설 1', '가설 2', '가설 3', 'Data source']
 tabs = st.tabs(tab_titles)
  
 # 각 탭에 콘텐츠 추가
@@ -78,6 +78,10 @@ with tabs[5]:
     st.write('여기서 데이터를 시각화합니다...')
 
 with tabs[6]:
+    st.header('가설 2 분석')
+    st.write('여기서 데이터를 시각화합니다...')
+
+with tabs[7]:
     st.markdown(r"""
 	- 자료 1. 매년 토지소재지 자치구청장이 개별공시지가를 공개합니다. (링크: http://data.seoul.go.kr/dataList/OA-1180/F/1/datasetView.do)
 		* 개별공시지가 : 결정공시하는 1㎡당 토지단가(원/㎡)입니다.
