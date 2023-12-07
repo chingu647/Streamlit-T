@@ -11,7 +11,7 @@ from collections import Counter
 from PIL import Image 
 
 st.markdown(r"""
-	###서울시 아파트 가격 추세 분석 및 회귀모델 분석
+	**서울시 아파트 가격 추세 분석 및 회귀모델 분석**
 	""") 
 st.markdown("""---""") 
 
